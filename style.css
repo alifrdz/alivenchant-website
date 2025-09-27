@@ -74,3 +74,17 @@ text-decoration: none;
 .fitur_produk{
     padding: 4rem 0;
 }
+
+.about-container{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+footer{
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    color: #eaeaea;
+}
