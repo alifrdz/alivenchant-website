@@ -4,16 +4,54 @@
     box-sizing: border-box;
 }
 
-/* Bagian Navbar*/
-
-.navbar{
-    background-color: #333;
-    padding: 1rem;
+body{
+    font-family: 'Lora' , serif;
 }
 
+
 /* bagian hero/utama display */
-.hero-section{
-    padding: 20px;
-    background-color: #f4f4f4;
-    height: 300px;
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero a{
+    padding: 1rem;
+    margin: 2rem;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.slogan{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+/* Bagian Navbar*/
+.navbar{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* list */
+.navbar .list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar .list li a{
+text-decoration: none;
+
 }
