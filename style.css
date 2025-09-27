@@ -55,3 +55,22 @@ body{
 text-decoration: none;
 
 }
+
+.wadah-kartu{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.kartu-produk{
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 10px;
+   box-shadow: 0px 4px 8px 0px rgba(0,0,0,1);
+   width: 300vh;
+}
+
+.fitur_produk{
+    padding: 4rem 0;
+}
