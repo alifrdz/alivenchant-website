@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ganci Akrilik 'Kenangan'",
+    "price": 15000,
+    "imageUrl": "images/ganci-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ganci Kulit 'Jejak'",
+    "price": 50000,
+    "imageUrl": "images/ganci-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ganci Spotify 'Melodi'",
+    "price": 25000,
+    "imageUrl": "images/ganci-3.jpg"
+  }
+]

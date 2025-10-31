@@ -58,11 +58,10 @@ text-decoration: none;
 
 /*shop*/
 .wadah-kartu{
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-   gap: 2rem;
-   margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem;
 }
 
 .kartu-produk{
