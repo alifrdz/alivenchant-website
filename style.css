@@ -56,11 +56,13 @@ text-decoration: none;
 
 }
 
+/*shop*/
 .wadah-kartu{
     display: flex;
-    justify-content: center;
-    gap: 1rem;
     text-align: center;
+    flex-wrap: wrap;
+   gap: 2rem;
+   margin-top: 2rem;
 }
 
 .kartu-produk{
@@ -68,18 +70,45 @@ text-decoration: none;
     padding: 10px;
     border-radius: 10px;
    box-shadow: 0px 4px 8px 0px rgba(0,0,0,1);
-   width: 300vh;
+   width: 300px;
 }
 
 .fitur_produk{
     padding: 4rem 0;
 }
 
+.galeri-shop{
+    padding: 2rem 2rem;
+    min-height: 100vh;
+}
+
+.galeri-nama{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+/*about*/
 .about-container{
     display: flex;
     align-items: center;
     padding: 1rem;
     gap: 2rem;
+}
+
+.about-konten{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-foto, .about-text{
+    flex: 1;
+}
+
+.about-foto img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 footer{
@@ -88,3 +117,4 @@ footer{
     text-align: center;
     color: #eaeaea;
 }
+
